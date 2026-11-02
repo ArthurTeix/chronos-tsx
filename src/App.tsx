@@ -6,7 +6,8 @@ import "./styles/theme.css";
 export function App() {
   return (
     <>
-      <Heading />
+      {/* tudo escrito entre a tag Heading vai ser o meu children */}
+      <Heading>oi amigo</Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fugit
         perferendis, voluptates porro unde repellendus provident nesciunt esse
